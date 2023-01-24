@@ -21,6 +21,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
   },
   settings: {
     react: {
